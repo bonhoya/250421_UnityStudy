@@ -18,8 +18,7 @@ public class GameManager0421 : MonoBehaviour
         }
     }
 
-    private int gameScore = 0;
-    public int GameScore { get { return gameScore; } private set { gameScore = value; } }
+    public int gameScore = 0;
 
     private void Awake()
     {
